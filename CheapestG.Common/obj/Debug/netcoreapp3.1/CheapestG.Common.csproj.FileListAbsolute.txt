@@ -1,0 +1,16 @@
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\CheapestG.Common.exe
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.AssemblyInfoInputs.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.AssemblyInfo.cs
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\CheapestG.Common.deps.json
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\CheapestG.Common.runtimeconfig.json
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\CheapestG.Common.runtimeconfig.dev.json
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\CheapestG.Common.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\CheapestG.Common.pdb
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.csproj.CoreCompileInputs.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.csproj.CopyComplete
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.pdb
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.genruntimeconfig.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.csprojAssemblyReference.cache
