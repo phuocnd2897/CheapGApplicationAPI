@@ -3649,6 +3649,7 @@
       "path": "system.net.nameresolution/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5858,8 +5859,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bom Nguyen\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\phuoc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5867,14 +5867,11 @@
       "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\API\\API.csproj",
       "projectName": "API",
       "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Bom Nguyen\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
       "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Bom Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5942,7 +5939,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

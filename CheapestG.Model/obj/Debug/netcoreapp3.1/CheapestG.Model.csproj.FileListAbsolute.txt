@@ -4,10 +4,10 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\Cheape
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.runtimeconfig.dev.json
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.pdb
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csprojAssemblyReference.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.AssemblyInfoInputs.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.AssemblyInfo.cs
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csproj.CoreCompileInputs.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.pdb
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.genruntimeconfig.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csprojAssemblyReference.cache

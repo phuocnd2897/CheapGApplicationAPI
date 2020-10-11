@@ -10,14 +10,11 @@
         "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj",
         "projectName": "CheapestG.Common",
         "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj",
-        "packagesPath": "C:\\Users\\Bom Nguyen\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
         "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bom Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

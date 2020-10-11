@@ -56,7 +56,7 @@ namespace CheapestG.Common.Helper
                 byte[] actualSubkey = KeyDerivation.Pbkdf2(password, salt, prf, iterCount, subkeyLength);
                 return CryptographicOperations.FixedTimeEquals(actualSubkey, expectedSubkey);
             }
-            catch (Exception ex)
+            catch
             {
                 return false;
             }

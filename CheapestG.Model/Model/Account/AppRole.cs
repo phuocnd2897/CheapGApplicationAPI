@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CheapestG.Model.Account
 {
-    [Table("Role")]
+    [Table("AppRole")]
     public class AppRole
     {
         [Key]

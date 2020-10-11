@@ -1,4 +1,5 @@
 ﻿using CheapestG.Model.Account;
+using CheapestG.Model.Model.Logistics;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,5 +18,7 @@ namespace CheapestG.Context
 
         }
         public virtual DbSet<AppUser> AppUsers { get; set; }
+        public virtual DbSet<Staff> Staffs { get; set; }
+        public virtual DbSet<Truck> Trucks { get; set; }
     }
 }

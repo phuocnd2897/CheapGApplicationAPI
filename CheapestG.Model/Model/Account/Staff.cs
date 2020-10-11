@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CheapestG.Model.Account
 {
-    [Table("User")]
+    [Table("Staff")]
     public class Staff
     {
         [Key]
@@ -22,8 +22,8 @@ namespace CheapestG.Model.Account
         public string Address { get; set; }
         [Required, MaxLength(11)]
         public string PhoneNumber { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
         public bool Lock { get; set; }
         [Required, MaxLength(50)]
         public string CreatedUser { get; set; }

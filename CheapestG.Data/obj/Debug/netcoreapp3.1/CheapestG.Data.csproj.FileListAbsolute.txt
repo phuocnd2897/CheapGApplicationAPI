@@ -12,17 +12,11 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microso
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\CheapestG.Context.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\CheapestG.Model.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\CheapestG.Context.pdb
@@ -35,3 +29,9 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\Cheapes
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.pdb
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.genruntimeconfig.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll

@@ -86,7 +86,14 @@ namespace CheapestG.Context
 
         public IEnumerable<T> GetAll(string[] includes = null)
         {
-            throw new NotImplementedException();
+            if (includes != null && includes.Count() > 0)
+            {
+                var query = this.dbSet.Include(includes.First());
+                foreach (var include in includes.Skip(1))
+                    query = query.Include(include);
+                return query.AsQueryable();
+            }
+            return this.dbSet.AsQueryable();
         }
 
         public DbSet<U> GetDbSet<U>() where U : class

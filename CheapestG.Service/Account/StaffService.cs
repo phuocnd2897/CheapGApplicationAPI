@@ -19,7 +19,7 @@ namespace CheapestG.Service.Account
         SelectResponseModel GetStaffByUsername(string username);
         StaffRequestModel Update(StaffRequestModel staffRequestModel, string username);
     }
-    class StaffService : IStaffService
+    public class StaffService : IStaffService
     {
         protected IStaffRepository _staffRepository;
         protected IAppUserRepository _appUserRepository;
@@ -49,7 +49,8 @@ namespace CheapestG.Service.Account
                     UserId = user.UserId
                 });
             }
-            else {
+            else
+            {
                 user = this._appUserRepository.Add(new AppUser
                 {
                     UserName = staffRequestModel.Username,
@@ -106,7 +107,7 @@ namespace CheapestG.Service.Account
         }
         public IEnumerable<StaffResponseModel> GetAll()
         {
-            return this._staffRepository.GetAll(new string[] { "AppUser.Role" }).Select(s => new StaffResponseModel
+            return this._staffRepository.GetAll(new string[] { "AppUser.AppRole" }).Select(s => new StaffResponseModel
             {
                 Id = s.Id,
                 FirstName = s.FirstName,

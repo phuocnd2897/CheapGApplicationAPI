@@ -19,8 +19,14 @@ namespace CheapestG.Model.Model.Logistics
         [Required, MaxLength(50)]
         public string Brand { get; set; }
         public float Weight { get; set; }
-        public int Status { get; set; }
         public float FuelConsumption { get; set; }
+        public float GasTank { get; set;}
+        [MaxLength(50)]
+        public string Driver { get; set; }
+        public bool Lock { get; set; }
+        public DateTime? CreatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
+        public string CreatedUser { get; set; }
 
     }
 }

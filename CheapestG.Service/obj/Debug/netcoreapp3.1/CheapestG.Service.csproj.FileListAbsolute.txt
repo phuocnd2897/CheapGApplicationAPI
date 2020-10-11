@@ -13,7 +13,6 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Chea
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Service.runtimeconfig.dev.json
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Service.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Service.pdb
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -21,17 +20,11 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Micr
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Common.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Context.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Data.dll
@@ -43,3 +36,10 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\Chea
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.pdb
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.genruntimeconfig.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll

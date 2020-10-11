@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CheapestG.Model.Account
 {
-    [Table("User")]
+    [Table("AppUser")]
     public class AppUser
     {
         public AppUser()

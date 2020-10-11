@@ -47,7 +47,7 @@ namespace API
             services.AddControllers();
             services.AddMemoryCache();
 
-            services.AddDbContext<CheapestGContext>(options => options.UseSqlServer(Configuration.GetConnectionString("EhisConnection")));
+            services.AddDbContext<CheapestGContext>(options => options.UseSqlServer(Configuration.GetConnectionString("CheapestGConnection")));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             var key = Encoding.ASCII.GetBytes(AppConst.SecretKey);
