@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1wGpJM3i1yR8l85c2BAr9+sU0Ju5raRQgGG0aiGdZtChsysvEPUJj4W8Fw+X3e6viUOCY/QfKswV3JbGWf/Mfg==",
+  "success": true,
+  "projectFilePath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phuoc\\.nuget\\packages\\bouncycastle.netcore\\1.8.6\\bouncycastle.netcore.1.8.6.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

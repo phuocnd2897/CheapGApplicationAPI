@@ -1,0 +1,16 @@
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\GoogleApi.exe
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.csprojAssemblyReference.cache
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.AssemblyInfoInputs.cache
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.AssemblyInfo.cs
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.csproj.CopyComplete
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.csproj.CoreCompileInputs.cache
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\GoogleApi.deps.json
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\GoogleApi.runtimeconfig.json
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\GoogleApi.runtimeconfig.dev.json
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\GoogleApi.dll
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\GoogleApi.pdb
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.dll
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.pdb
+D:\CapstoneProject\CheapestGasAPI\GoogleApi\obj\Debug\netcoreapp3.1\GoogleApi.genruntimeconfig.cache

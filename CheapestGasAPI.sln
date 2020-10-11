@@ -15,15 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Data", "02 Data", "{1284
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Service", "03 Service", "{B4C605B7-E6F7-4208-B947-B273AA1B9820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapestG.Common", "CheapestG.Common\CheapestG.Common.csproj", "{D8472004-BCFD-4308-8DF2-118E87CE1BAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheapestG.Common", "CheapestG.Common\CheapestG.Common.csproj", "{D8472004-BCFD-4308-8DF2-118E87CE1BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapestG.Service", "CheapestG.Service\CheapestG.Service.csproj", "{8316E1ED-D3A8-4DD7-9222-A5F575DE9424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheapestG.Service", "CheapestG.Service\CheapestG.Service.csproj", "{8316E1ED-D3A8-4DD7-9222-A5F575DE9424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapestG.Data", "CheapestG.Data\CheapestG.Data.csproj", "{B6337FAE-1BD7-4B55-87FE-974BF331830B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheapestG.Data", "CheapestG.Data\CheapestG.Data.csproj", "{B6337FAE-1BD7-4B55-87FE-974BF331830B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapestG.Context", "CheapestG.Context\CheapestG.Context.csproj", "{874830B6-A077-4EF0-B4B3-9F256D871A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheapestG.Context", "CheapestG.Context\CheapestG.Context.csproj", "{874830B6-A077-4EF0-B4B3-9F256D871A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapestG.Model", "CheapestG.Model\CheapestG.Model.csproj", "{1AB16B84-7556-40D9-9537-CDF8E4838790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheapestG.Model", "CheapestG.Model\CheapestG.Model.csproj", "{1AB16B84-7556-40D9-9537-CDF8E4838790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleApi", "GoogleApi\GoogleApi.csproj", "{F94C7789-5036-44D4-9F85-A9DB34596DB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{1AB16B84-7556-40D9-9537-CDF8E4838790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB16B84-7556-40D9-9537-CDF8E4838790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB16B84-7556-40D9-9537-CDF8E4838790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94C7789-5036-44D4-9F85-A9DB34596DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94C7789-5036-44D4-9F85-A9DB34596DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94C7789-5036-44D4-9F85-A9DB34596DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94C7789-5036-44D4-9F85-A9DB34596DB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{B6337FAE-1BD7-4B55-87FE-974BF331830B} = {12842067-F0F0-4115-817B-A80C2E1F6E49}
 		{874830B6-A077-4EF0-B4B3-9F256D871A1F} = {12842067-F0F0-4115-817B-A80C2E1F6E49}
 		{1AB16B84-7556-40D9-9537-CDF8E4838790} = {F5CDDA22-A9F8-4EE8-9357-D2A1CCA40FCC}
+		{F94C7789-5036-44D4-9F85-A9DB34596DB6} = {D7367B3E-331F-4EB1-9A76-D2D7CFEF4642}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDE48271-3673-46EE-9205-0086B521A1AE}
