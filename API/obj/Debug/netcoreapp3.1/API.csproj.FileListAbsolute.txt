@@ -77,3 +77,7 @@ D:\CapstoneProject\CheapestGasAPI\API\obj\Debug\netcoreapp3.1\staticwebassets\AP
 D:\CapstoneProject\CheapestGasAPI\API\obj\Debug\netcoreapp3.1\API.dll
 D:\CapstoneProject\CheapestGasAPI\API\obj\Debug\netcoreapp3.1\API.pdb
 D:\CapstoneProject\CheapestGasAPI\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+D:\CapstoneProject\CheapestGasAPI\API\bin\Debug\netcoreapp3.1\GoogleApi.exe
+D:\CapstoneProject\CheapestGasAPI\API\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\CapstoneProject\CheapestGasAPI\API\bin\Debug\netcoreapp3.1\GoogleApi.dll
+D:\CapstoneProject\CheapestGasAPI\API\bin\Debug\netcoreapp3.1\GoogleApi.pdb

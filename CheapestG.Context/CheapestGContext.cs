@@ -20,5 +20,6 @@ namespace CheapestG.Context
         public virtual DbSet<AppUser> AppUsers { get; set; }
         public virtual DbSet<Staff> Staffs { get; set; }
         public virtual DbSet<Truck> Trucks { get; set; }
+        public virtual DbSet<Trip> Trips { get; set; }
     }
 }

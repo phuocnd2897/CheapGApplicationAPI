@@ -23,6 +23,8 @@ namespace CheapestG.Model.Model.Logistics
         public DateTime RealTime { get; set; }
         public float EstimatedCost { get; set; }
         public float CostOfTrip { get; set; }
+        public DateTime CreatedTime { get; set; }
+        public DateTime UpdatedTime { get; set; }
         public int TruckId { get; set; }
         public int DriverId { get; set; }
         [ForeignKey("TruckId")]

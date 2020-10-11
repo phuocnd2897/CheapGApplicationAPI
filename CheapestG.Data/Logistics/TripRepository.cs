@@ -12,7 +12,7 @@ namespace CheapestG.Data.Logistics
     }
     public class TripRepository : RepositoryBase<Trip, string>, ITripRepository
     {
-        protected TripRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public TripRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
     }

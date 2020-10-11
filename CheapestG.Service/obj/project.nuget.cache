@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aNTdZQGE68Ixj9LMMbbQ+VpXtPd1KFRDHPqL+2P32wO8TXQyDoe/VAyJceT/C7SrDYt/m4BZ9IANNst821lCSA==",
+  "dgSpecHash": "BJdyQR/EhK0PTiB5hl2+KQeuO9HBuRATrHq/yssLZab8qjdrR0omPOpm4MWfrzN5iwQO/ZsLSbSpK4jRdKVBRg==",
   "success": true,
   "projectFilePath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Service\\CheapestG.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\phuoc\\.nuget\\packages\\bouncycastle.netcore\\1.8.6\\bouncycastle.netcore.1.8.6.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -22,6 +23,7 @@
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"

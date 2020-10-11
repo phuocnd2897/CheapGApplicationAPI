@@ -9,6 +9,7 @@
     <ProjectReference Include="..\CheapestG.Common\CheapestG.Common.csproj" />
     <ProjectReference Include="..\CheapestG.Data\CheapestG.Data.csproj" />
     <ProjectReference Include="..\CheapestG.Model\CheapestG.Model.csproj" />
+    <ProjectReference Include="..\GoogleApi\GoogleApi.csproj" />
   </ItemGroup>
 
 </Project>
