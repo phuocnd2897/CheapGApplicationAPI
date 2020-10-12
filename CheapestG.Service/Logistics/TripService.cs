@@ -3,6 +3,7 @@ using GoogleApi;
 using GoogleApi.Entities.Common;
 using GoogleApi.Entities.Maps.Common.Enums;
 using GoogleApi.Entities.Maps.Directions.Request;
+using GoogleApi.Entities.Maps.Directions.Response;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,7 +12,7 @@ namespace CheapestG.Service.Logistics
 {
     public interface ITripService
     {
-        void GetRoute(string from, string to);
+        DirectionsResponse GetRoute(string from, string to);
     }
     public class TripService : ITripService
     {
@@ -20,11 +21,11 @@ namespace CheapestG.Service.Logistics
         {
             _tripRepository = tripRepository;
         }
-        public void GetRoute(string from, string to)
+        public DirectionsResponse GetRoute(string from, string to)
         {
             var request = new DirectionsRequest
             {
-                Key = "",
+                Key = "AIzaSyAo421sSPdh65qh2f0B08C2U4eU5-pGg4c",
                 Origin = new Location(from),
                 Destination = new Location(to),
                 Alternatives = true,
@@ -32,6 +33,7 @@ namespace CheapestG.Service.Logistics
             };
 
             var result = GoogleMaps.Directions.Query(request);
+            return result;
         }
     }
 }
