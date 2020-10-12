@@ -31,8 +31,8 @@ namespace CheapestG.Service.Logistics
                 Alternatives = true,
                 TravelMode = TravelMode.Driving,
             };
-
             var result = GoogleMaps.Directions.Query(request);
+
             return result;
         }
     }
