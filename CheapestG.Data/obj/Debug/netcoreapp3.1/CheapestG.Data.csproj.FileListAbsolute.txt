@@ -24,7 +24,6 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Cheapes
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.csprojAssemblyReference.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.AssemblyInfoInputs.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.AssemblyInfo.cs
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.csproj.CoreCompileInputs.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.csproj.CopyComplete
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.pdb
@@ -35,3 +34,9 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microso
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\GoogleApi.exe
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\GoogleApi.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\bin\Debug\netcoreapp3.1\GoogleApi.pdb
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Data\obj\Debug\netcoreapp3.1\CheapestG.Data.csproj.CoreCompileInputs.cache

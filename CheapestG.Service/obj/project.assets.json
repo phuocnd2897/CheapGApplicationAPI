@@ -287,7 +287,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "CheapestG.Context": "1.0.0",
-          "CheapestG.Model": "1.0.0"
+          "CheapestG.Model": "1.0.0",
+          "GoogleApi": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CheapestG.Data.dll": {}
@@ -299,6 +300,9 @@
       "CheapestG.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GoogleApi": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CheapestG.Model.dll": {}
         },

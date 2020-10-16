@@ -32,3 +32,8 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\obj\Debug\netcoreapp3.1\Chea
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\CheapestG.Model.exe
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\CheapestG.Model.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\CheapestG.Model.pdb
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\GoogleApi.exe
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\GoogleApi.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Context\bin\Debug\netcoreapp3.1\GoogleApi.pdb

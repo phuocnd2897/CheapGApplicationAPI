@@ -11,3 +11,9 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\Cheape
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.pdb
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.genruntimeconfig.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csprojAssemblyReference.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\GoogleApi.exe
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\GoogleApi.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\GoogleApi.pdb
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csproj.CopyComplete

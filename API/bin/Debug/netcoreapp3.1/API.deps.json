@@ -1391,7 +1391,8 @@
       "CheapestG.Data/1.0.0": {
         "dependencies": {
           "CheapestG.Context": "1.0.0",
-          "CheapestG.Model": "1.0.0"
+          "CheapestG.Model": "1.0.0",
+          "GoogleApi": "1.0.0"
         },
         "runtime": {
           "CheapestG.Data.dll": {}
@@ -1401,6 +1402,9 @@
         }
       },
       "CheapestG.Model/1.0.0": {
+        "dependencies": {
+          "GoogleApi": "1.0.0"
+        },
         "runtime": {
           "CheapestG.Model.dll": {}
         },

@@ -13,4 +13,3 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\Cheap
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.pdb
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.genruntimeconfig.cache
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Common\obj\Debug\netcoreapp3.1\CheapestG.Common.csprojAssemblyReference.cache

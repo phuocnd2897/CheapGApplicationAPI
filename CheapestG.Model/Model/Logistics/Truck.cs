@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace CheapestG.Model.Model.Logistics
+namespace CheapestG.Model.Logistics
 {
     [Table("Truck")]
     public class Truck
@@ -18,14 +18,14 @@ namespace CheapestG.Model.Model.Logistics
         public string Name { get; set; }
         [Required, MaxLength(50)]
         public string Brand { get; set; }
-        public float Weight { get; set; }
-        public float FuelConsumption { get; set; }
-        public float GasTank { get; set;}
-        [MaxLength(50)]
+        public double Weight { get; set; }
+        public double FuelConsumption { get; set; }
+        public double GasTank { get; set;}
+        [MaxLength(128)]
         public string Driver { get; set; }
         public bool Lock { get; set; }
-        public DateTime? CreatedDate { get; set; }
-        public DateTime? UpdatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
         public string CreatedUser { get; set; }
 
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CheapestG.Model.Model.Logistics;
+using CheapestG.Model.Logistics;
 using CheapestG.Service.Logistics;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

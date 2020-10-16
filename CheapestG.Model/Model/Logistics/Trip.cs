@@ -1,11 +1,12 @@
 ﻿using CheapestG.Model.Account;
+using CheapestG.Model.Logistics;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace CheapestG.Model.Model.Logistics
+namespace CheapestG.Model.Logistics
 {
     [Table("Trip")]
     public class Trip

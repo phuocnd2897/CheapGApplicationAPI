@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CheapestG.Context\CheapestG.Context.csproj" />
     <ProjectReference Include="..\CheapestG.Model\CheapestG.Model.csproj" />
+    <ProjectReference Include="..\GoogleApi\GoogleApi.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "d0Y6hphxeP6R4gHE0A5tP/4QnKxZY/dRW4CSn2J58g8gnZZ9GpRmIfTlvlf8QK4JtOwR2jdjwlAerAQ0q81TWg==",
+  "dgSpecHash": "r3qRlQdGjdWMhU/vYUxaKvg96bXIPfETusIVrOiGJ7JYtWARFWfYSjTTKk7IgMo28r3rXAZilZdy5pMem7x2NQ==",
   "success": true,
   "projectFilePath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Context\\CheapestG.Context.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\phuoc\\.nuget\\packages\\bouncycastle.netcore\\1.8.6\\bouncycastle.netcore.1.8.6.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.8\\microsoft.entityframeworkcore.3.1.8.nupkg.sha512",
@@ -20,6 +21,7 @@
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"

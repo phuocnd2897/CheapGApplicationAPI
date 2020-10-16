@@ -1,6 +1,6 @@
 ﻿using CheapestG.Data.Account;
 using CheapestG.Data.Logistics;
-using CheapestG.Model.Model.Logistics;
+using CheapestG.Model.Logistics;
 using System;
 using System.Collections.Generic;
 using System.Linq;

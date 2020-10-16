@@ -1,5 +1,5 @@
 ﻿using CheapestG.Model.Account;
-using CheapestG.Model.Model.Logistics;
+using CheapestG.Model.Logistics;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

@@ -21,9 +21,9 @@ namespace API.Controller.Logistics
         }
         [HttpGet]
         [Route("GetRoute")]
-        public IActionResult GetRoute(string from, string to)
+        public IActionResult GetRoute(string from, string to,int truckId)
         {
-            var result = this._tripService.GetRoute(from, to);
+            var result = this._tripService.GetRoute(from, to, truckId);
             if (result == null)
             {
                 return BadRequest();

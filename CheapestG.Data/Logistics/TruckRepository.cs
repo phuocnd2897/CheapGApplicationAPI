@@ -1,5 +1,5 @@
 ﻿using CheapestG.Context;
-using CheapestG.Model.Model.Logistics;
+using CheapestG.Model.Logistics;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -234,6 +234,9 @@
               },
               "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj": {
                 "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj"
+              },
+              "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj": {
+                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj"
               }
             }
           }
@@ -287,7 +290,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj": {
+                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
