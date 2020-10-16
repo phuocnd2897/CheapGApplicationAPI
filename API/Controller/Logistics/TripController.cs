@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controller.Logistics
 {
-    [Authorize("Bearer")]
     [Route("api/[controller]")]
     [ApiController]
     public class TripController : ControllerBase
