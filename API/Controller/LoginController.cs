@@ -30,7 +30,7 @@ namespace API.Controller
         {
             if (!ModelState.IsValid)
                 return BadRequest(new { message = "Dữ liệu không hợp lệ!" });
-            var user = this._appUserService.Login(login.Username, login.Password);
+            var user = this._appUserService.Login(login.Username, login.Password, login.DeviceToken);
             if (user == null || user.Roles.id != "3")
                 return BadRequest(new { message = "Tên đăng nhập hoặc mật khẩu không đúng!" });
             //var roles = this._appUserService.getrolesbyuserid(user.UserId);
@@ -65,7 +65,7 @@ namespace API.Controller
         {
             if (!ModelState.IsValid)
                 return BadRequest(new { message = "Dữ liệu không hợp lệ!" });
-            var user = this._appUserService.Login(login.Username, login.Password);
+            var user = this._appUserService.Login(login.Username, login.Password, "");
             if (user == null && (user.Roles.id != "1" || user.Roles.id != "2"))
                 return BadRequest(new { message = "Tên đăng nhập hoặc mật khẩu không đúng!" });
             //var roles = this._appUserService.getrolesbyuserid(user.UserId);

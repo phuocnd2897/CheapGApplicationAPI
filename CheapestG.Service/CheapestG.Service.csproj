@@ -6,6 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Logistics\route.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Logistics\route.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FireSharp" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CheapestG.Common\CheapestG.Common.csproj" />
     <ProjectReference Include="..\CheapestG.Data\CheapestG.Data.csproj" />
     <ProjectReference Include="..\CheapestG.Model\CheapestG.Model.csproj" />

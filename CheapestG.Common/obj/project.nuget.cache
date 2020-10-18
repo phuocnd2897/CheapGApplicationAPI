@@ -1,11 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "Qe5lTlNOS2LdfDwRPKn1c5XKZ7RtKd7y+2kZzHuJWPOqGVHeuNEoAMvqhPuAkp4vQGJIUJA/iG/t2v7bT48Jfw==",
+  "dgSpecHash": "yNL0ylkQpxZeAxvgxY9YMl6OwcdI52e2VRHHixr52mP6wQqxiWRcMdGnqZJRxIKVBLn3dmlnswMqKWu6LnlckA==",
   "success": true,
   "projectFilePath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\phuoc\\.nuget\\packages\\firebaseadmin\\1.17.1\\firebaseadmin.1.17.1.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\google.api.gax\\2.7.0\\google.api.gax.2.7.0.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\google.api.gax.rest\\2.7.0\\google.api.gax.rest.2.7.0.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\google.apis\\1.40.0\\google.apis.1.40.0.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\google.apis.auth\\1.40.0\\google.apis.auth.1.40.0.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\google.apis.core\\1.40.0\\google.apis.core.1.40.0.nupkg.sha512",
     "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
-    "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512"
+    "C:\\Users\\phuoc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\phuoc\\.nuget\\packages\\system.interactive.async\\3.2.0\\system.interactive.async.3.2.0.nupkg.sha512"
   ],
   "logs": []
 }

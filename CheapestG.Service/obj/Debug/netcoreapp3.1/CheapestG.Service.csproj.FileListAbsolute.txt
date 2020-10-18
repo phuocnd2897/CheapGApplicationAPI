@@ -2,7 +2,6 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Chea
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.csprojAssemblyReference.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.AssemblyInfoInputs.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.AssemblyInfo.cs
-D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.csproj.CoreCompileInputs.cache
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Common.exe
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Context.exe
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\CheapestG.Model.exe
@@ -48,3 +47,19 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Boun
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\GoogleApi.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\GoogleApi.pdb
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\FireSharp.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\System.Net.Http.Extensions.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\System.Net.Http.Primitives.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\obj\Debug\netcoreapp3.1\CheapestG.Service.csproj.CoreCompileInputs.cache
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Logistics\route.json
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Google.Apis.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+D:\CapstoneProject\CheapestGasAPI\CheapestG.Service\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CheapestG.Model.Account;
+using CheapestG.Model.Model.Logistics;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -21,12 +23,17 @@ namespace CheapestG.Model.Logistics
         public double Weight { get; set; }
         public double FuelConsumption { get; set; }
         public double GasTank { get; set;}
+        public int GasId { get; set; }
         [MaxLength(128)]
         public string Driver { get; set; }
         public bool Lock { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
         public string CreatedUser { get; set; }
+        [ForeignKey("GasId")]
+        public virtual Gas Gas { get; set; }
+        [ForeignKey("Driver")]
+        public virtual AppUser AppUser { get; set; }
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CheapestG.Model.Model.Account;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -24,5 +25,6 @@ namespace CheapestG.Model.Account
         public int RoleId { get; set; }
         [ForeignKey("RoleId")]
         public virtual AppRole AppRole { get; set; }
+        public virtual AppUserLogin AppUserLogin { get; set; }
     }
 }

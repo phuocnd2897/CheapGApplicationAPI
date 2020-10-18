@@ -9,6 +9,8 @@ namespace CheapestG.Model.ResponseModel
         public string UserId { get; set; }
         public string ProviderKey { get; set; }
         public string Username { get; set; }
+        public DateTime LoginTime { get; set; }
+        public DateTime ExpiresTime { get; set; }
         public string Token { get; set; }
         public SelectResponseModel Roles { get; set; }
     }

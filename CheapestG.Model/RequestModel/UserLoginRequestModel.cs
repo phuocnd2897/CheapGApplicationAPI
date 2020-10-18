@@ -11,5 +11,7 @@ namespace CheapestG.Model.RequestModel
         public string Username { get; set; }
         [Required, MaxLength(50), MinLength(5)]
         public string Password { get; set; }
+        [Required]
+        public string DeviceToken { get; set; }
     }
 }

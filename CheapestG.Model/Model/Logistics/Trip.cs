@@ -18,19 +18,26 @@ namespace CheapestG.Model.Logistics
         [Key]
         [MaxLength(128)]
         public string Id { get; set; }
-        public string FromLocation { get; set; }
-        public string ToLocation { get; set; }
-        public DateTime EstimatedTime { get; set; }
-        public DateTime RealTime { get; set; }
+        [MaxLength(200), Required]
+        public string Origin { get; set; }
+        [MaxLength(200), Required]
+        public string Destination { get; set; }
+        public DateTime StarTime { get; set; }
+        public TimeSpan EstimatedTime { get; set; }
+        public TimeSpan? RealTime { get; set; }
         public float EstimatedCost { get; set; }
-        public float CostOfTrip { get; set; }
+        public float? CostOfTrip { get; set; }
+        public int Status { get; set; }
         public DateTime CreatedTime { get; set; }
         public DateTime UpdatedTime { get; set; }
         public int TruckId { get; set; }
-        public int DriverId { get; set; }
+        [MaxLength(128), Required]
+        public string DriverId { get; set; }
+
+        public string CreatedUser { get; set; }
         [ForeignKey("TruckId")]
         public virtual Truck Truck { get; set; }
         [ForeignKey("DriverId")]
-        public virtual Staff Staff { get; set; }
+        public virtual AppUser AppUser { get; set; }
     }
 }
