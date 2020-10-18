@@ -14,7 +14,7 @@ namespace CheapestG.Model.Model.Logistics
         public int Id { get; set; }
         [Required, MaxLength(50)]
         public string GasName { get; set; }
-        public float Price { get; set; }
+        public double Price { get; set; }
         public int Area { get; set; }
     }
 }

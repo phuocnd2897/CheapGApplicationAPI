@@ -9,7 +9,7 @@ namespace CheapestG.Model.ResponseModel
     public class RouteResponseModel
     {
         public Route route { get; set; }
-        public float estimatedCost { get; set; }
+        public double estimatedCost { get; set; }
         public IEnumerable<Location> placesRefuel { get; set; }
         public IEnumerable<GasStationResponseModel> gasStationResponseModels { get; set; }
     }

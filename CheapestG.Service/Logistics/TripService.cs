@@ -30,6 +30,7 @@ namespace CheapestG.Service.Logistics
         IEnumerable<RouteResponseModel> GetRoute(string from, string to, int truckId, float weight);
         TripRequestModel Add(TripRequestModel item, string username);
         RouteResponseModel GetSpecifyRoute();
+        Trip UpdateStatus(string id, int status);
     }
     public class TripService : ITripService
     {
@@ -83,7 +84,11 @@ namespace CheapestG.Service.Logistics
             double distance = 0;
             if (!_tripRepository.Contains(s => s.TruckId == truckId))
             {
-                distanceRefuel = ((truck.GasTank * 100) / ((weight * truck.Weight) / truck.FuelConsumption) - 30) * 1000;
+                distanceRefuel = ((truck.GasTank * 100) / ((weight * truck.FuelConsumption) / truck.Weight) - 30) * 1000;
+            }
+            else
+            {
+
             }
             var requestDirection = new DirectionsRequest
             {
@@ -141,7 +146,7 @@ namespace CheapestG.Service.Logistics
                     }
                     
                 }
-                float estimatedCost = truck.Gas.Price * placeRefuel.Count();
+                double estimatedCost = truck.Gas.Price * placeRefuel.Count();
                 routeResponseModel.Add(new RouteResponseModel
                 {
                     estimatedCost = estimatedCost,
@@ -207,6 +212,15 @@ namespace CheapestG.Service.Logistics
             {
                 return false;
             }
+        }
+
+        public Trip UpdateStatus(string id, int status)
+        {
+            var result = this._tripRepository.GetSingle(s => s.Id == id);
+            result.Status = status;
+            this._tripRepository.Update(result);
+            this._tripRepository.Commit();
+            return result;
         }
     }
 }

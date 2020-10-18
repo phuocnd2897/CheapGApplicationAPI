@@ -45,13 +45,34 @@ namespace API.Controller.Logistics
         [HttpPost]
         public IActionResult Add(TripRequestModel item)
         {
-            var username = User.Identity.Name;
-            var result = this._tripService.Add(item, username);
-            if (result == null)
+            try
+            {
+                var username = User.Identity.Name;
+                var result = this._tripService.Add(item, username);
+                if (result == null)
+                {
+                    return BadRequest();
+                }
+                return Ok(result);
+            }
+            catch (Exception)
             {
                 return BadRequest();
             }
-            return Ok(result);
+        }
+        [HttpPut]
+        [Route("UpdateStatus")]
+        public IActionResult UpdateStatus(string id, int status)
+        {
+            try
+            {
+                var result = this._tripService.UpdateStatus(id, status);
+                return Ok(result);
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
     }
 }

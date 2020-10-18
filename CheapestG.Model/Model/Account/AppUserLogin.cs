@@ -19,7 +19,7 @@ namespace CheapestG.Model.Model.Account
         public DateTime LoginTime { get; set; }
         [Required]
         public DateTime ExpiresTime { get; set; }
-        [Required, MaxLength(200)]
+        [MaxLength(200)]
         public string IdFireBase { get; set; }
         public virtual AppUser AppUser { get; set; }
     }

@@ -11,12 +11,6 @@ namespace GoogleApi.Entities.Maps.Directions.Response
     public class Leg
     {
         /// <summary>
-        /// steps[] contains an array of steps denoting information about each separate step of the leg of the journey. (See Directions Steps below.)
-        /// </summary>
-        [JsonProperty("steps")]
-        public virtual IEnumerable<Step> Steps { get; set; }
-
-        /// <summary>
         /// Via-WayPoints.
         /// </summary>
         [JsonProperty("via_waypoint")]
@@ -79,5 +73,10 @@ namespace GoogleApi.Entities.Maps.Directions.Response
         /// </summary>
         [JsonProperty("end_address")]
         public virtual string EndAddress { get; set; }
+        /// <summary>
+        /// steps[] contains an array of steps denoting information about each separate step of the leg of the journey. (See Directions Steps below.)
+        /// </summary>
+        [JsonProperty("steps")]
+        public virtual IEnumerable<Step> Steps { get; set; }
     }
 }

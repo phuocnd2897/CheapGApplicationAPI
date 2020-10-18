@@ -25,8 +25,8 @@ namespace CheapestG.Model.Logistics
         public DateTime StarTime { get; set; }
         public TimeSpan EstimatedTime { get; set; }
         public TimeSpan? RealTime { get; set; }
-        public float EstimatedCost { get; set; }
-        public float? CostOfTrip { get; set; }
+        public double EstimatedCost { get; set; }
+        public double? CostOfTrip { get; set; }
         public int Status { get; set; }
         public DateTime CreatedTime { get; set; }
         public DateTime UpdatedTime { get; set; }
