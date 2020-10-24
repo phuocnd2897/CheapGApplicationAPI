@@ -1,3 +1,487 @@
 {
-
-}
+  "route": {
+    "summary": "Xa lộ Đại Hàn/QL1A",
+    "legs": [
+      {
+        "via_waypoint": [],
+        "distance": {
+          "value": 19077,
+          "text": "19,1 km"
+        },
+        "duration": {
+          "text": "33 phút",
+          "value": 1992,
+          "time_zone": null
+        },
+        "duration_in_traffic": null,
+        "arrival_time": null,
+        "departure_time": null,
+        "start_location": {
+          "lat": 10.7521826,
+          "lng": 106.6273672,
+          "Address": null
+        },
+        "end_location": {
+          "lat": 10.8521429,
+          "lng": 106.6308435,
+          "Address": null
+        },
+        "start_address": "44 Đường số 9, Phường 13, Quận 6, Thành phố Hồ Chí Minh, Việt Nam",
+        "end_address": "Công viên phần mềm Quang Trung, Tân Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+        "steps": [
+          {
+            "html_instructions": "Đi về hướng <b>Tây Bắc</b> lên <b>Đường số 9</b> về phía <b>Đường số 11</b><div style=\"font-size:0.9em\">Đi qua Công Ty Tnhh Mtv Xây Dựng Thương Mại Dịch Vụ Du Lịch Trung Hiếu (ở phía bên trái)</div>",
+            "distance": {
+              "value": 111,
+              "text": "0,1 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 36,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7521826,
+              "lng": 106.6273672,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7530514,
+              "lng": 106.6268726,
+              "Address": null
+            },
+            "maneuver": "None",
+            "travel_mode": "Driving",
+            "polyline": { "points": "c`s`AatxiSc@TiClA" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Rẽ <b>trái</b> tại Cửa Hàng Văn Phòng Phẩm Tiến Hưng vào <b>Đường số 11</b><div style=\"font-size:0.9em\">Đi qua Công Ty Tnhh Mtv Minh Thành (ở phía bên trái)</div>",
+            "distance": {
+              "value": 291,
+              "text": "0,3 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 65,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7530514,
+              "lng": 106.6268726,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7532126,
+              "lng": 106.6242132,
+              "Address": null
+            },
+            "maneuver": "turn-left",
+            "travel_mode": "Driving",
+            "polyline": { "points": "qes`A}pxiSAtA?F?R?PAb@?NC^Cl@Ad@KnCEvA" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Rẽ <b>trái</b> tại CÔNG TY TNHH TM - DV KỸ THUẬT VIỄN THÔNG TOÀN CẦU vào <b>An D. Vương</b><div style=\"font-size:0.9em\">Đi qua Cửa Hàng Thành Lợi (ở phía bên trái)</div>",
+            "distance": {
+              "value": 163,
+              "text": "0,2 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 34,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7532126,
+              "lng": 106.6242132,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7517444,
+              "lng": 106.6241775,
+              "Address": null
+            },
+            "maneuver": "turn-left",
+            "travel_mode": "Driving",
+            "polyline": { "points": "qfs`Ai`xiSpCAhABhAB" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Rẽ <b>phải</b> tại Đại Lý Bia Năm Trọng vào <b>Đường số 7</b><div style=\"font-size:0.9em\">Đi qua Cửa Hàng Hoa Kiểng Tám Lợi (ở bên phải cách 600&nbsp;m)</div>",
+            "distance": {
+              "value": 2951,
+              "text": "3,0 km"
+            },
+            "duration": {
+              "text": "6 phút",
+              "value": 369,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7517444,
+              "lng": 106.6241775,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.750682,
+              "lng": 106.5974641,
+              "Address": null
+            },
+            "maneuver": "turn-right",
+            "travel_mode": "Driving",
+            "polyline": { "points": "k}r`Ac`xiSMvGVz@^bA@ZAr@IpBK~AC`@Ar@?^Aj@C~A?N?ZBTA\\ClA@`BOfGChGC@CDCBA@?@?@A@?@?@?@?@?@?@?@?@@@?@?@@@?@@@@@@??@@??@IpBKxHA~DIlEAVAj@Aj@AV?@Ah@C`AG~E?BAb@?d@An@CtACr@KhEC`B@h@@ZBVDf@BTFb@Fb@Fb@HhAB`@BPD`@?@VvB\\dDd@rDZ`DXjBv@lGBNf@~E" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Tiếp tục đi thẳng qua Công Ty Tnhh Thương Mại Dịch Vụ Vật Tư Ngành In Kiến Phong vào <b>Đ. Trần Văn Giàu</b>/<wbr/><b>Đường số 7</b><div style=\"font-size:0.9em\">Đi qua Shop Nho Phượng (ở phía bên phải)</div>",
+            "distance": {
+              "value": 375,
+              "text": "0,4 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 44,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.750682,
+              "lng": 106.5974641,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7500491,
+              "lng": 106.5940978,
+              "Address": null
+            },
+            "maneuver": "straight",
+            "travel_mode": "Driving",
+            "polyline": { "points": "wvr`AcyriSFrAb@dD\\lBPdBXbDFl@" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Rẽ <b>phải</b> tại Cà Phê Kim Chung vào <b>Đường số 54</b><div style=\"font-size:0.9em\">Đi qua Nhà không (ở phía bên phải)</div>",
+            "distance": {
+              "value": 195,
+              "text": "0,2 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 32,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7500491,
+              "lng": 106.5940978,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7516099,
+              "lng": 106.5932886,
+              "Address": null
+            },
+            "maneuver": "turn-right",
+            "travel_mode": "Driving",
+            "polyline": { "points": "yrr`AcdriSCB{CpAeAb@cA^MF" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Rẽ <b>trái</b> tại Công Ty Tnhh Thương Mại Sản Xuất Bao Bì Khang Phát vào <b>Đường số 55</b>",
+            "distance": {
+              "value": 43,
+              "text": "43 m"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 7,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7516099,
+              "lng": 106.5932886,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7515887,
+              "lng": 106.5929,
+              "Address": null
+            },
+            "maneuver": "turn-left",
+            "travel_mode": "Driving",
+            "polyline": { "points": "q|r`Aa_riS?T@n@@F" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Rẽ <b>phải</b> tại Hà nội vào <b>Xa lộ Đại Hàn</b>/<wbr/><b>QL1A</b><div style=\"font-size:0.9em\">Đi qua Công Ty Tnhh Tm Huỳnh Nguyễn (ở phía bên phải)</div>",
+            "distance": {
+              "value": 3678,
+              "text": "3,7 km"
+            },
+            "duration": {
+              "text": "5 phút",
+              "value": 302,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7515887,
+              "lng": 106.5929,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7840564,
+              "lng": 106.5943669,
+              "Address": null
+            },
+            "maneuver": "turn-right",
+            "travel_mode": "Driving",
+            "polyline": { "points": "m|r`As|qiS[FgBZ}Eb@sBRc@Dc@FeAJc@DSBq@FA@Q@QBgAJQBO@qANSBQ@]DK@KBqANQBQ@uBVE?]D{@JI@c@FWBm@Fe@@M@M?IAMAI@K@aAHaBXqC\\_D\\uBRUBO@OBiD\\uAPsAJm@@s@?o@?y@AqAEw@EeBMqAOwBYa@G]EEAc@Ga@Gc@Ga@Gc@Ga@Ec@Gc@GSEUCWE_@E_@G]EQCOCWEIAu@IcBSmAOa@EA?MA_Da@GA{SiCIAWEyEk@cBUcEe@wHaAOCg@GyG}@iEo@{AUE?k@I]G" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Chếch sang <b>phải</b> vào <b>QL1A</b><div style=\"font-size:0.9em\">Đi qua Công ty ĐẠI LỢI HƯNG (ở phía bên phải)</div>",
+            "distance": {
+              "value": 477,
+              "text": "0,5 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 48,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7840564,
+              "lng": 106.5943669,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7882253,
+              "lng": 106.5953147,
+              "Address": null
+            },
+            "maneuver": "turn-slight-right",
+            "travel_mode": "Driving",
+            "polyline": { "points": "kgy`AyeriSEGEEEASG}C_@YCoAQs@IYEIAeAOA?wDc@MAs@Kg@IMAs@KOA" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Đi <b>bên trái</b> để đi tiếp <b>Xa lộ Đại Hàn</b>/<wbr/><b>QL1A</b><div style=\"font-size:0.9em\">Phí cầu đường</div><div style=\"font-size:0.9em\">Đi qua Cửa Hàng Tín Nghĩa (ở phía bên phải)</div>",
+            "distance": {
+              "value": 697,
+              "text": "0,7 km"
+            },
+            "duration": {
+              "text": "2 phút",
+              "value": 94,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7882253,
+              "lng": 106.5953147,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7943098,
+              "lng": 106.5965609,
+              "Address": null
+            },
+            "maneuver": "keep-left",
+            "travel_mode": "Driving",
+            "polyline": { "points": "maz`AukriSAHq@KUCQCQCw@KkAMgAQKCOAwAWyBOkAM{De@sBWi@GOCuCg@o@K[E" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Chếch sang <b>phải</b> tại Tiệm Điện Cơ Trung Pump vào <b>Xa lộ Đại Hàn</b>/<wbr/><b>QL1</b>/<wbr/><b>QL1A</b><div style=\"font-size:0.9em\">Phí cầu đường</div><div style=\"font-size:0.9em\">Đi qua VẬN TẢI BẢO HÂN (ở phía bên phải)</div>",
+            "distance": {
+              "value": 504,
+              "text": "0,5 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 67,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7943098,
+              "lng": 106.5965609,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.7987221,
+              "lng": 106.5974958,
+              "Address": null
+            },
+            "maneuver": "turn-slight-right",
+            "travel_mode": "Driving",
+            "polyline": { "points": "mg{`AosriSYSOG{ASiAQs@Io@G{@EyBQcAM]Es@Ke@Ee@GYCkC]" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Đi <b>bên trái</b> để đi tiếp <b>Xa lộ Đại Hàn</b>/<wbr/><b>QL1A</b><div style=\"font-size:0.9em\">Đi qua Sản xuất phân phối giàn giáo máy xây dựng sỉ lẻ HCM, cung cấp giàn giáo thiết bị công trình giá rẻ nhất hcm, CÔNG TY THIẾT BỊ XÂY DỰNG THÉP SOKA (ở bên phải cách 1,1&nbsp;km)</div>",
+            "distance": {
+              "value": 7125,
+              "text": "7,1 km"
+            },
+            "duration": {
+              "text": "11 phút",
+              "value": 651,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.7987221,
+              "lng": 106.5974958,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.8507354,
+              "lng": 106.6283238,
+              "Address": null
+            },
+            "maneuver": "keep-left",
+            "travel_mode": "Driving",
+            "polyline": { "points": "_c|`AkyriSCLg@Gw@KSCo@I_AKeAMc@Gc@Ge@GiDc@uAS}@KqBYyDg@aCY_BSw@KaEi@k@IkEm@yAQkC]gAMeAO}AQ}ASwIkAkC_@oDe@gAOqG{@e@Gg@GOCOEC?C?q@MEAKAKAe@Ic@G_@Ea@EyGw@c@E{@KsBWkAQuDg@yAQy@MgBUa@GA?gEk@mC]k@IkCa@[?i@K}Di@_AMu@KuAM}Ce@y@Oy@Oo@Qq@Oo@Sk@S_A[{@YgAg@u@a@cAg@mAg@o@_@]QSMcAg@qE_CqDiBWOKG}@g@q@_@qBkAy@c@{@i@kB}AOO_AaAsA}A}@iAsB{BqGsHKMc@i@{AcBa@i@e@i@u@}@iBwBwBgCW[SSEEo@u@a@e@oB{BKOc@e@yCeDA?SUIKIMGSsB_CgAkAQSY[k@q@o@w@s@aAs@kAYk@Q]GMs@gB]{@Y{@w@yBuA{Da@mAe@kAqBwFmBeF]_AyCuH" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Tiếp tục đi thẳng qua Máy Gỗ THẢO HÙNG vào <b>Xa lộ Đại Hàn</b>/<wbr/><b>Xa lộ Hà Nội</b>/<wbr/><b>QL1A</b><div style=\"font-size:0.9em\">Đi qua Đại lý ắc quy Minh Tâm (ở bên trái cách 550&nbsp;m)</div>",
+            "distance": {
+              "value": 908,
+              "text": "0,9 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 69,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.8507354,
+              "lng": 106.6283238,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.8545238,
+              "lng": 106.6356824,
+              "Address": null
+            },
+            "maneuver": "straight",
+            "travel_mode": "Driving",
+            "polyline": { "points": "chfaA_zxiS_@oAOc@_@cAy@yBqAaDeBeEa@wAmAeCqBmEkBeEaAwBa@{@" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Đi <b>bên phải</b><div style=\"font-size:0.9em\">Đi qua Đại Lý Vé Máy Bay Vé Tàu (ở phía bên phải)</div>",
+            "distance": {
+              "value": 472,
+              "text": "0,5 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 59,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.8545238,
+              "lng": 106.6356824,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.8564731,
+              "lng": 106.6394306,
+              "Address": null
+            },
+            "maneuver": "keep-right",
+            "travel_mode": "Driving",
+            "polyline": { "points": "w_gaA_hziSJE_@}@GKu@gBaAwBmAqCYk@a@aAq@yAu@cB" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Vòng <b>ngược lại</b> tại Cty TNHH TM DV In Ấn Trang Trang<div style=\"font-size:0.9em\">Đi qua Cửa Hàng Tạp Hóa Diệu Huyền (ở phía bên phải)</div>",
+            "distance": {
+              "value": 978,
+              "text": "1,0 km"
+            },
+            "duration": {
+              "text": "2 phút",
+              "value": 104,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.8564731,
+              "lng": 106.6394306,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.8524892,
+              "lng": 106.6316708,
+              "Address": null
+            },
+            "maneuver": "uturn-left",
+            "travel_mode": "Driving",
+            "polyline": { "points": "}kgaAm_{iSM@QJ`@z@d@dAh@jAHPXn@nCfGt@`Br@`Bp@vANZJRTj@LXx@fB@B~@zB~@zBlArCn@~A" },
+            "transit_details": null,
+            "steps": null
+          },
+          {
+            "html_instructions": "Đi <b>bên phải</b><div style=\"font-size:0.9em\">Đi qua Công viên Phần mềm Quang Trung (ở phía bên phải)</div><div style=\"font-size:0.9em\">Điểm đến sẽ ở bên phải</div>",
+            "distance": {
+              "value": 109,
+              "text": "0,1 km"
+            },
+            "duration": {
+              "text": "1 phút",
+              "value": 11,
+              "time_zone": null
+            },
+            "start_location": {
+              "lat": 10.8524892,
+              "lng": 106.6316708,
+              "Address": null
+            },
+            "end_location": {
+              "lat": 10.8521429,
+              "lng": 106.6308435,
+              "Address": null
+            },
+            "maneuver": "keep-right",
+            "travel_mode": "Driving",
+            "polyline": { "points": "asfaA}nyiSOBb@`Ap@~A" },
+            "transit_details": null,
+            "steps": null
+          }
+        ]
+      }
+    ],
+    "waypoint_order": [],
+    "overview_polyline": { "points": "c`s`AatxiSmDbBA|AAxAUbGEvApCArCFMvGVz@^bA@ZKdDO`CG~E@~AAnDOfGChGGFEDAF?FBNFD?@IpBKxHA~DIlECbAEnBMhII~EOjHBdATxBNfALjB`@lD\\dDd@rDZ`DXjBz@|Gf@~EFrAb@dD\\lBj@hGFl@CBaFtBqAf@@dA@F[FgBZ}Eb@wCXiBRkBR}BToGr@gHx@eAJs@Bo@AmAJaBXqHz@kCV_Ht@aCLcB?kCG}CSiGw@{Fw@uEo@}H_Aqd@yFsPsBeQcCiAQKMYIwDc@gDc@mGu@}Cc@OAAHgAO{ASoDe@wAWyBOgGs@}C_@eDk@kAQi@[eDe@cBQuDWaBSyC]kC]CL_BSiEg@wU}C{McB}MgBe`@eFyLcBcM{A_H{@qL}AyJqAwDk@[?i@K}Fw@kCYwEu@iBa@aBc@kBo@cCaAyBiA}BgAq@_@_NaHmF{CuBmA{BmBsC_DqDeE}KoMqKgMmEgFsEaFSYGSsB_CyA_BeAmAcByBmAwBkBoEiE_McHiRyCuH_@oAo@gBkC{GeBeEa@wA_EsImD}Ha@{@JEg@iA_F}KsA{Cu@cBM@QJ`@z@nApChFjL`FzK|FjNOBb@`Ap@~A" },
+    "copyrights": "Map data ©2020",
+    "warnings": [],
+    "fare": null,
+    "bounds": {
+      "northeast": {
+        "lat": 10.8566342,
+        "lng": 106.6394306,
+        "Address": null
+      },
+      "southwest": {
+        "lat": 10.7500491,
+        "lng": 106.5905295,
+        "Address": null
+      }
+    }
+  },
+  "estimatedCost": 0.0,
+  "placesRefuel": [],
+  "gasStationResponseModels":[]}

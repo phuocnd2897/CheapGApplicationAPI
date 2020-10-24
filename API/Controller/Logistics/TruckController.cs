@@ -73,6 +73,24 @@ namespace API.Controller.Logistics
                 return BadRequest("An error occurred. Please try again");
             }
         }
+        [HttpGet]
+        [Route("GetSelect")]
+        public IActionResult GetSelect()
+        {
+            try
+            {
+                var result = this._TruckService.GetSelect();
+                if (result == null)
+                {
+                    return BadRequest();
+                }
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return BadRequest("An error occurred. Please try again");
+            }
+        }
         [HttpDelete]
         public IActionResult Delete([FromQuery] int Id)
         {

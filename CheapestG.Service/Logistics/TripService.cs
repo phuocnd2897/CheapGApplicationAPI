@@ -50,12 +50,13 @@ namespace CheapestG.Service.Logistics
             {
                 Origin = item.routeResponseModel.route.Legs.FirstOrDefault().StartAddress,
                 Destination = item.routeResponseModel.route.Legs.FirstOrDefault().EndAddress,
-                StarTime = item.StartTime,
-                EstimatedTime = TimeSpan.FromMinutes(item.routeResponseModel.route.Legs.FirstOrDefault().Duration.Value),
+                StartTime = item.StartTime,
+                EstimatedTime = TimeSpan.FromSeconds(item.routeResponseModel.route.Legs.FirstOrDefault().Duration.Value).ToString(@"hh\:mm\:ss\:f"),
                 EstimatedCost = item.routeResponseModel.estimatedCost,
+                Mass = item.Mass,
                 Status = StatusTripConst.Pending,
-                CreatedTime = DateTime.Now,
-                UpdatedTime = DateTime.Now,
+                CreatedDate = DateTime.Now,
+                UpdatedDate = DateTime.Now,
                 TruckId = item.TruckId,
                 DriverId = item.DriverId,
                 CreatedUser = username
@@ -70,10 +71,12 @@ namespace CheapestG.Service.Logistics
                 if (check)
                 {
                     string jsonData = JsonConvert.SerializeObject(item.routeResponseModel);
-                    System.IO.File.WriteAllText("route.json", jsonData);
-                    return item;
-                }
-            }
+            System.IO.File.WriteAllText("route.json", jsonData);
+
+            this._appUserLoginRepository.Commit();
+            return item;
+        }
+    }
             return null;
         }
 

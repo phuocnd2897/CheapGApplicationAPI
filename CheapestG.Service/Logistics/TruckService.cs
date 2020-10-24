@@ -1,9 +1,11 @@
 ﻿using CheapestG.Data.Account;
 using CheapestG.Data.Logistics;
 using CheapestG.Model.Logistics;
+using CheapestG.Model.ResponseModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace CheapestG.Service.Logistics
@@ -15,13 +17,16 @@ namespace CheapestG.Service.Logistics
         Truck Add(Truck newItem, string username);
         Truck Update(Truck newItem, string username);
         void Delete(int id);
+        IEnumerable<SelectResponseModel> GetSelect();
     }
     public class TruckService : ITruckService
     {
         private ITruckRepository _truckRepository;
-        public TruckService(ITruckRepository truckRepository)
+        private ITripRepository _tripRepository;
+        public TruckService(ITruckRepository truckRepository, ITripRepository tripRepository)
         {
             _truckRepository = truckRepository;
+            _tripRepository = tripRepository;
         }
         public Truck Add(Truck newItem, string username)
         {
@@ -47,6 +52,12 @@ namespace CheapestG.Service.Logistics
         public IEnumerable<Truck> GetAll()
         {
             return this._truckRepository.GetAll().OrderBy(s => s.Id);
+        }
+
+        public IEnumerable<SelectResponseModel> GetSelect()
+        {
+            var result = this._truckRepository.GetSelectTruck();
+            return result;
         }
 
         public Truck Update(Truck newItem, string username)

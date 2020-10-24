@@ -22,14 +22,15 @@ namespace CheapestG.Model.Logistics
         public string Origin { get; set; }
         [MaxLength(200), Required]
         public string Destination { get; set; }
-        public DateTime StarTime { get; set; }
-        public TimeSpan EstimatedTime { get; set; }
+        public DateTime StartTime { get; set; }
+        public String EstimatedTime { get; set; }
         public TimeSpan? RealTime { get; set; }
         public double EstimatedCost { get; set; }
         public double? CostOfTrip { get; set; }
+        public double Mass { get; set; }
         public int Status { get; set; }
-        public DateTime CreatedTime { get; set; }
-        public DateTime UpdatedTime { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
         public int TruckId { get; set; }
         [MaxLength(128), Required]
         public string DriverId { get; set; }
