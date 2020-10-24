@@ -74,5 +74,19 @@ namespace API.Controller.Logistics
                 return BadRequest();
             }
         }
+        [HttpGet]
+        [Route("CheckNot")]
+        public IActionResult CheckNot(string id, int status)
+        {
+            try
+            {
+                this._tripService.CheckNoti();
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
     }
 }

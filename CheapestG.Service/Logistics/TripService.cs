@@ -31,6 +31,7 @@ namespace CheapestG.Service.Logistics
         TripRequestModel Add(TripRequestModel item, string username);
         RouteResponseModel GetSpecifyRoute();
         Trip UpdateStatus(string id, int status);
+        void CheckNoti();
     }
     public class TripService : ITripService
     {
@@ -46,6 +47,7 @@ namespace CheapestG.Service.Logistics
 
         public TripRequestModel Add(TripRequestModel item, string username)
         {
+            var truck = _truckRepository.GetMulti(s => s.Id == item.TruckId, new string[] { "AppUser" }).FirstOrDefault();
             var result = this._tripRepository.Add(new Trip
             {
                 Origin = item.routeResponseModel.route.Legs.FirstOrDefault().StartAddress,
@@ -58,13 +60,13 @@ namespace CheapestG.Service.Logistics
                 CreatedDate = DateTime.Now,
                 UpdatedDate = DateTime.Now,
                 TruckId = item.TruckId,
-                DriverId = item.DriverId,
+                DriverId = truck.AppUser.UserId,
                 CreatedUser = username
             });
             if (result != null)
             {
                 item.Id = result.Id;
-                var userLogin = this._appUserLoginRepository.GetMulti(s => s.UserId == item.DriverId).OrderByDescending(s => s.LoginTime).FirstOrDefault();
+                var userLogin = this._appUserLoginRepository.GetMulti(s => s.UserId == truck.AppUser.UserId).OrderByDescending(s => s.LoginTime).FirstOrDefault();
                 String tittle = "You receive a trip";
                 String body = "Let check and start your trip";
                 var check = this.NotifyAsync(userLogin.IdFireBase, tittle, body).Result;
@@ -78,6 +80,52 @@ namespace CheapestG.Service.Logistics
         }
     }
             return null;
+        }
+
+        public void CheckNoti()
+        {
+            var userLogin = this._appUserLoginRepository.GetMulti(s => s.UserId == "34e41037-058d-4c32-9e25-1a9920236251").OrderByDescending(s => s.LoginTime).FirstOrDefault();
+            String tittle = "You receive a trip";
+            String body = "Let check and start your trip";
+            try
+            {
+                // Get the server key from FCM console
+                var serverKey = string.Format("key={0}", "AAAAN3NZffM:APA91bEA3fAlOU2nGpFra_SOsq22uVm5CzXZZsh3p4JVHgf0zNOj4dZnXL1lbtAtOY9qgNQyYEMWyuweEGvFc-9zANlbflT_xBs4FjZR8PPrkifFs29pU4fF4E7s26-joYLQbyP0orPD");
+
+                // Get the sender id from FCM console
+                var senderId = string.Format("id={0}", "238158446067");
+
+                var data = new
+                {
+                    to = userLogin.IdFireBase, // Recipient device token
+                    notification = new { tittle, body }
+                };
+
+                // Using Newtonsoft.Json
+                var jsonBody = JsonConvert.SerializeObject(data);
+
+                using (var httpRequest = new HttpRequestMessage(HttpMethod.Post, "https://fcm.googleapis.com/fcm/send"))
+                {
+                    httpRequest.Headers.TryAddWithoutValidation("Authorization", serverKey);
+                    httpRequest.Headers.TryAddWithoutValidation("Sender", senderId);
+                    httpRequest.Content = new StringContent(jsonBody, Encoding.UTF8, "application/json");
+
+                    using (var httpClient = new HttpClient())
+                    {
+                        var result = httpClient.SendAsync(httpRequest).Result;
+
+                        if (result.IsSuccessStatusCode)
+                        {
+                        }
+                        else
+                        {
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+            }
         }
 
         public IEnumerable<RouteResponseModel> GetRoute(string from, string to, int truckId, float weight)
@@ -176,14 +224,14 @@ namespace CheapestG.Service.Logistics
             try
             {
                 // Get the server key from FCM console
-                var serverKey = string.Format("key={0}", "AAAAcH5Eaj0:APA91bF9pWehTD2bGVShJSbvI623626qJGK9bsy4TJQy7bDZ1vqx48PrPTkh6_xSJlq3NRPAhgUEBAqz_I_v97KBTcSl91BpH4BG6pgTf1i9ay9voYov9v7YPblR-cJ46G4mqKswch9o");
+                var serverKey = string.Format("key={0}", "AAAAN3NZffM:APA91bEA3fAlOU2nGpFra_SOsq22uVm5CzXZZsh3p4JVHgf0zNOj4dZnXL1lbtAtOY9qgNQyYEMWyuweEGvFc-9zANlbflT_xBs4FjZR8PPrkifFs29pU4fF4E7s26-joYLQbyP0orPD");
 
                 // Get the sender id from FCM console
-                var senderId = string.Format("id={0}", "483154750013");
+                var senderId = string.Format("id={0}", "238158446067");
 
                 var data = new
                 {
-                    to, // Recipient device token
+                    to =to, // Recipient device token
                     notification = new { title, body }
                 };
 
@@ -193,7 +241,6 @@ namespace CheapestG.Service.Logistics
                 using (var httpRequest = new HttpRequestMessage(HttpMethod.Post, "https://fcm.googleapis.com/fcm/send"))
                 {
                     httpRequest.Headers.TryAddWithoutValidation("Authorization", serverKey);
-                    httpRequest.Headers.TryAddWithoutValidation("Sender", senderId);
                     httpRequest.Content = new StringContent(jsonBody, Encoding.UTF8, "application/json");
 
                     using (var httpClient = new HttpClient())
