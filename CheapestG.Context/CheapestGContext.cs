@@ -1,6 +1,7 @@
 ﻿using CheapestG.Model.Account;
 using CheapestG.Model.Logistics;
 using CheapestG.Model.Model.Account;
+using CheapestG.Model.Model.Logistics;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,8 @@ namespace CheapestG.Context
         public virtual DbSet<AppUserLogin> AppUserLogins { get; set; }
         public virtual DbSet<Staff> Staffs { get; set; }
         public virtual DbSet<Truck> Trucks { get; set; }
-        public virtual DbSet<Trip> Trips { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<AppUser>()

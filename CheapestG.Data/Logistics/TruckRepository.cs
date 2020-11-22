@@ -9,7 +9,7 @@ namespace CheapestG.Data.Logistics
 {
     public interface ITruckRepository : IRepository<Truck, int>
     {
-        IEnumerable<SelectResponseModel> GetSelectTruck();
+        IEnumerable<TruckResponseModel> GetSelectTruck();
     }
     public class TruckRepository : RepositoryBase<Truck, int>, ITruckRepository
     {
@@ -19,19 +19,22 @@ namespace CheapestG.Data.Logistics
             dbContext = unitOfWork.dbContext;
         }
 
-        public IEnumerable<SelectResponseModel> GetSelectTruck()
+        public IEnumerable<TruckResponseModel> GetSelectTruck()
         {
             var result = from truck in dbContext.Trucks
-                         join trip in dbContext.Trips on truck.Id equals trip.TruckId into _trip
+                         join trip in dbContext.OrderDetails on truck.Id equals trip.TruckId into _trip
                          from trip in _trip.DefaultIfEmpty()
                          join user in dbContext.AppUsers on truck.Driver equals user.UserId
+                         join staff in dbContext.Staffs on user.UserId equals staff.UserId
                          where trip.Status != 1 || trip.Status != 2
-                         select new SelectResponseModel
+                         select new TruckResponseModel
                          {
-                             id = truck.Id.ToString(),
-                             text = truck.LicensePlates + " - " + truck.Weight + " - " + user.UserName
+                             LicensePlate = truck.LicensePlates,
+                             Weight = truck.Weight,
+                             DriverId = truck.Driver,
+                             DriverName = staff.LastName + " " + staff.FirstName
                          };
-            return result;
+            return result.OrderByDescending(s => s.Weight);
 
         }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Service\\CheapestG.Service.csproj": {}
+    "D:\\Capstone\\API\\CheapestG.Service\\CheapestG.Service.csproj": {}
   },
   "projects": {
-    "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj": {
+    "D:\\Capstone\\API\\CheapestG.Common\\CheapestG.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj",
+        "projectUniqueName": "D:\\Capstone\\API\\CheapestG.Common\\CheapestG.Common.csproj",
         "projectName": "CheapestG.Common",
-        "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj",
-        "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-        "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\obj\\",
+        "projectPath": "D:\\Capstone\\API\\CheapestG.Common\\CheapestG.Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Capstone\\API\\CheapestG.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,17 +66,17 @@
         }
       }
     },
-    "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Context\\CheapestG.Context.csproj": {
+    "D:\\Capstone\\API\\CheapestG.Context\\CheapestG.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Context\\CheapestG.Context.csproj",
+        "projectUniqueName": "D:\\Capstone\\API\\CheapestG.Context\\CheapestG.Context.csproj",
         "projectName": "CheapestG.Context",
-        "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Context\\CheapestG.Context.csproj",
-        "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-        "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Context\\obj\\",
+        "projectPath": "D:\\Capstone\\API\\CheapestG.Context\\CheapestG.Context.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Capstone\\API\\CheapestG.Context\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj"
+              "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj": {
+                "projectPath": "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj"
               }
             }
           }
@@ -128,17 +128,17 @@
         }
       }
     },
-    "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Data\\CheapestG.Data.csproj": {
+    "D:\\Capstone\\API\\CheapestG.Data\\CheapestG.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Data\\CheapestG.Data.csproj",
+        "projectUniqueName": "D:\\Capstone\\API\\CheapestG.Data\\CheapestG.Data.csproj",
         "projectName": "CheapestG.Data",
-        "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Data\\CheapestG.Data.csproj",
-        "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-        "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Data\\obj\\",
+        "projectPath": "D:\\Capstone\\API\\CheapestG.Data\\CheapestG.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Capstone\\API\\CheapestG.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -151,14 +151,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Context\\CheapestG.Context.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Context\\CheapestG.Context.csproj"
+              "D:\\Capstone\\API\\CheapestG.Context\\CheapestG.Context.csproj": {
+                "projectPath": "D:\\Capstone\\API\\CheapestG.Context\\CheapestG.Context.csproj"
               },
-              "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj"
-              },
-              "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj"
+              "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj": {
+                "projectPath": "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj"
               }
             }
           }
@@ -190,144 +187,17 @@
         }
       }
     },
-    "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj": {
+    "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj",
+        "projectUniqueName": "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj",
         "projectName": "CheapestG.Model",
-        "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj",
-        "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-        "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\obj\\",
+        "projectPath": "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Capstone\\API\\CheapestG.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Service\\CheapestG.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Service\\CheapestG.Service.csproj",
-        "projectName": "CheapestG.Service",
-        "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Service\\CheapestG.Service.csproj",
-        "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-        "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Common\\CheapestG.Common.csproj"
-              },
-              "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Data\\CheapestG.Data.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Data\\CheapestG.Data.csproj"
-              },
-              "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj"
-              },
-              "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj": {
-                "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "FireSharp": {
-              "target": "Package",
-              "version": "[2.0.4, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj",
-        "projectName": "GoogleApi",
-        "projectPath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\GoogleApi.csproj",
-        "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-        "outputPath": "D:\\CapstoneProject\\CheapestGasAPI\\GoogleApi\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -350,14 +220,72 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Capstone\\API\\CheapestG.Service\\CheapestG.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Capstone\\API\\CheapestG.Service\\CheapestG.Service.csproj",
+        "projectName": "CheapestG.Service",
+        "projectPath": "D:\\Capstone\\API\\CheapestG.Service\\CheapestG.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Capstone\\API\\CheapestG.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Capstone\\API\\CheapestG.Common\\CheapestG.Common.csproj": {
+                "projectPath": "D:\\Capstone\\API\\CheapestG.Common\\CheapestG.Common.csproj"
+              },
+              "D:\\Capstone\\API\\CheapestG.Data\\CheapestG.Data.csproj": {
+                "projectPath": "D:\\Capstone\\API\\CheapestG.Data\\CheapestG.Data.csproj"
+              },
+              "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj": {
+                "projectPath": "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "BouncyCastle.NetCore": {
+            "FireSharp": {
               "target": "Package",
-              "version": "[1.8.6, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[2.0.4, )"
             }
           },
           "imports": [

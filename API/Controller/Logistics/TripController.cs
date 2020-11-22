@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CheapestG.Model.Model.Logistics;
 using CheapestG.Model.RequestModel;
 using CheapestG.Service.Logistics;
 using Microsoft.AspNetCore.Authorization;
@@ -15,50 +16,22 @@ namespace API.Controller.Logistics
     [ApiController]
     public class TripController : ControllerBase
     {
-        private ITripService _tripService;
-        public TripController(ITripService tripService)
+        private IOrderService _orderService;
+        public TripController(IOrderService orderService)
         {
-            _tripService = tripService;
-        }
-        [HttpGet]
-        [Route("GetRoute")]
-        public IActionResult GetRoute(string from, string to,int truckId, float weight)
-        {
-            var result = this._tripService.GetRoute(from, to, truckId, weight);
-            if (result == null)
-            {
-                return BadRequest();
-            }
-            return Ok(result);
-        }
-        [HttpGet]
-        [Route("GetSpecifyRoute")]
-        public IActionResult GetSpecifyRoute()
-        {
-            var result = this._tripService.GetSpecifyRoute();
-            if (result == null)
-            {
-                return BadRequest();
-            }
-            return Ok(result);
+            _orderService = orderService;
         }
         [HttpPost]
-        public IActionResult Add(TripRequestModel item)
+        [Route("CreateOrder")]
+        public IActionResult CreateOrder(List<OrderRequestModel> newItems)
         {
-            try
-            {
-                var username = User.Identity.Name;
-                var result = this._tripService.Add(item, username);
-                if (result == null)
-                {
-                    return BadRequest();
-                }
-                return Ok(result);
-            }
-            catch (Exception ex)
+            var username = User.Identity.Name;
+            var result = this._orderService.CreateOrder(newItems, username);
+            if (result == null)
             {
                 return BadRequest();
             }
+            return Ok(result);
         }
         [HttpPut]
         [Route("UpdateStatus")]
@@ -66,7 +39,7 @@ namespace API.Controller.Logistics
         {
             try
             {
-                var result = this._tripService.UpdateStatus(id, status);
+                var result = this._orderService.UpdateStatus(id, status);
                 return Ok(result);
             }
             catch
@@ -80,7 +53,7 @@ namespace API.Controller.Logistics
         {
             try
             {
-                this._tripService.CheckNoti();
+                this._orderService.CheckNoti();
                 return Ok();
             }
             catch

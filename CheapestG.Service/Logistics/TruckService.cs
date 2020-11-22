@@ -17,13 +17,12 @@ namespace CheapestG.Service.Logistics
         Truck Add(Truck newItem, string username);
         Truck Update(Truck newItem, string username);
         void Delete(int id);
-        IEnumerable<SelectResponseModel> GetSelect();
     }
     public class TruckService : ITruckService
     {
         private ITruckRepository _truckRepository;
-        private ITripRepository _tripRepository;
-        public TruckService(ITruckRepository truckRepository, ITripRepository tripRepository)
+        private IOrderRepository _tripRepository;
+        public TruckService(ITruckRepository truckRepository, IOrderRepository tripRepository)
         {
             _truckRepository = truckRepository;
             _tripRepository = tripRepository;
@@ -37,7 +36,6 @@ namespace CheapestG.Service.Logistics
             this._truckRepository.Commit();
             return result;
         }
-
         public void Delete(int id)
         {
             this._truckRepository.Delete(id);
@@ -48,18 +46,10 @@ namespace CheapestG.Service.Logistics
         {
             return this._truckRepository.GetSingle(s => s.Id == Id);
         }
-
         public IEnumerable<Truck> GetAll()
         {
             return this._truckRepository.GetAll().OrderBy(s => s.Id);
         }
-
-        public IEnumerable<SelectResponseModel> GetSelect()
-        {
-            var result = this._truckRepository.GetSelectTruck();
-            return result;
-        }
-
         public Truck Update(Truck newItem, string username)
         {
             var result = this._truckRepository.GetSingle(s => s.Id == newItem.Id);

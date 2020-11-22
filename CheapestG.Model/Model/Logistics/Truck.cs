@@ -30,8 +30,6 @@ namespace CheapestG.Model.Logistics
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
         public string CreatedUser { get; set; }
-        [ForeignKey("GasId")]
-        public virtual Gas Gas { get; set; }
         [ForeignKey("Driver")]
         public virtual AppUser AppUser { get; set; }
 

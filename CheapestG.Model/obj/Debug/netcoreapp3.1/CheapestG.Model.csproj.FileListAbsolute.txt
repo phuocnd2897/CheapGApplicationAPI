@@ -17,3 +17,16 @@ D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\Newton
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\GoogleApi.dll
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\bin\Debug\netcoreapp3.1\GoogleApi.pdb
 D:\CapstoneProject\CheapestGasAPI\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csproj.CopyComplete
+D:\Capstone\API\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.exe
+D:\Capstone\API\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.deps.json
+D:\Capstone\API\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.runtimeconfig.json
+D:\Capstone\API\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.runtimeconfig.dev.json
+D:\Capstone\API\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.dll
+D:\Capstone\API\CheapestG.Model\bin\Debug\netcoreapp3.1\CheapestG.Model.pdb
+D:\Capstone\API\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.AssemblyInfoInputs.cache
+D:\Capstone\API\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.AssemblyInfo.cs
+D:\Capstone\API\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csproj.CoreCompileInputs.cache
+D:\Capstone\API\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.dll
+D:\Capstone\API\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.pdb
+D:\Capstone\API\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.genruntimeconfig.cache
+D:\Capstone\API\CheapestG.Model\obj\Debug\netcoreapp3.1\CheapestG.Model.csprojAssemblyReference.cache

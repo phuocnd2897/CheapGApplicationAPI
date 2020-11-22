@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0OoubxF1uLuINvRl8HKpME0OYpf2tqjQhqHSfIDzLfHvbYp+G1LBNUVWIUUtK1ynVl3FGymLKCr6FdLUfGnzOg==",
+  "dgSpecHash": "KSSzkVhDQpwF/m37BfgBd+0t/vHo3tqg55spVgSFT89A/8DGhxNccmocejWB4S3zU8qlpHx+xfWohCj3Fdzr1w==",
   "success": true,
-  "projectFilePath": "D:\\CapstoneProject\\CheapestGasAPI\\CheapestG.Model\\CheapestG.Model.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\phuoc\\.nuget\\packages\\bouncycastle.netcore\\1.8.6\\bouncycastle.netcore.1.8.6.nupkg.sha512",
-    "C:\\Users\\phuoc\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Capstone\\API\\CheapestG.Model\\CheapestG.Model.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
